@@ -171,6 +171,5 @@ public class Dashboardpage extends DashboardRepository {
 		logout.click();
 	}
 	
-	//add
 	
 }
