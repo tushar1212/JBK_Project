@@ -154,7 +154,7 @@ public class Dashboardpage extends DashboardRepository {
 	}
 	
 	public void navigateToUsefulLinksPage()
-	{//add
+	{
 		WebElement usefulLink=usefulLinksPage;
 		usefulLink.click();
 	}
