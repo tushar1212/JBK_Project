@@ -26,6 +26,8 @@ public class RegsPage extends RegPageRepository {
 			r = true;
 		} else
 			r = false;
+		
+		//co
 
 		return r;
 	}
