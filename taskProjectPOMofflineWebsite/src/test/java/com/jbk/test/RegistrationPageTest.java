@@ -33,7 +33,7 @@ public class RegistrationPageTest {
 	}
 
 	@Test(priority = 1)
-	public void checkText() {		//Register a new membership Text Check
+	public void checkText() {		//Register a new membership Text Check..
 		r= lp.getText();
 		Assert.assertEquals(r, true);
 	}
@@ -164,5 +164,11 @@ public class RegistrationPageTest {
 		lp.clickBtn();
 		r = rp.alredyMemberClick();
 		Assert.assertEquals(r, true);}
+	
+	
+	@Test(priority = 17)
+	public void check(){
+	System.out.println("commit check");
+	}
 
 }
