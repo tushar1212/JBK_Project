@@ -165,6 +165,10 @@ public class RegistrationPageTest {
 		r = rp.alredyMemberClick();
 		Assert.assertEquals(r, true);}
 	
-
+	
+	@Test(priority = 18)
+	public void check(){
+	System.out.println("commit check");
+	}
 
 }
